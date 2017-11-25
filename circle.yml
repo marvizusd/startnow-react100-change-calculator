@@ -1,8 +1,0 @@
-deployment:
-  prod:
-    branch: master
-    heroku:
-      appname: cc-changecalc
-machine:
-  node:
-    version: 8.1.4
