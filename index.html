@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Change Calculator</title>
+
+  <style>
+    body {
+      /* Source: https://uigradients.com */
+      background: #3a7bd5;
+      background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+      background: linear-gradient(to right, #3a6073, #3a7bd5);
+    }
+  </style>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="root">
+        <div classNameName='container'>
+          <div className='page-header'>
+            <h1>Change Calculator</h1>
+          </div>
+          <div className='row'>
+            <div className='panel panel-default col-sm-4' style='padding:0px'>
+              <div className='panel-heading'>Enter Information</div>
+              <div className='panel-body'>
+                <p>How much is due?</p>
+                <input type="number" className='form-control' />
+                <p>How much is recived?</p>
+                <input type='number' className='form-control' />
+              </div>
+              <div className='panel-footer'>
+                <button type='button' className='btn btn-primary btn-block'> Caclulate</button>
+              </div>
+            </div>
+            <div className='panel panel-default col-sm-8'>
+              <div className='panel-body'>
+                <div className='alert alert-success' role='alert'> Total Change Due </div>
+                <div className='alert alert-danger' role='alert'> Additional money owed </div>
+                <div className='row'>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Twenties</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Tens</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Fives</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Ones</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Quarters</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Dimes</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Nickles</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                  <div className='col-xs-3 well well-lg'>
+                    <h4 className='text-center'> <strong> Pennies</strong></h4>
+                    <p className='text-center'> 0</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  <script src="bundle.js"></script>
+</body>
+
+</html>
