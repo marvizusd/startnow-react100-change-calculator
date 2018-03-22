@@ -2,7 +2,7 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: cc-changecalc
+      appname: change-calc
 machine:
   node:
     version: 8.1.4
